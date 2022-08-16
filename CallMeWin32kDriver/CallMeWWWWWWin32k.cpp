@@ -76,7 +76,7 @@ __declspec(
 
                     // Call OEP
                     auto pOEP = (PDRIVER_INITIALIZE)(uBaseAddress + pImageNtHeader->OptionalHeader.AddressOfEntryPoint);
-                    lStatus = pOEP(pNewDrvObj, NULL);
+                    lStatus = pOEP(pNewDrvObj, nullptr);
                 }
             }
         }
