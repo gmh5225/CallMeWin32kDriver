@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallMeWin32kDriver", "CallMeWin32kDriver\CallMeWin32kDriver.vcxproj", "{F78E2281-0FA8-4370-887C-A50B6F6DE96D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32bro", "win32bro\win32bro.vcxproj", "{81F19D96-3BC8-4179-9B14-C1E46119233D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32kbro", "win32kbro\win32kbro.vcxproj", "{81F19D96-3BC8-4179-9B14-C1E46119233D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
