@@ -46,7 +46,7 @@ DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING RegistryPath)
             if (DriverObject->DriverStart == pBase)
             {
                 pSelfEntry = pEntry;
-                dprintf("find world:%p\n", pSelfEntry);
+                dprintf("find world:%p, DllBase=%p\n", pSelfEntry, pBase);
                 break;
             }
 
