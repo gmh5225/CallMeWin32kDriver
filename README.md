@@ -13,6 +13,7 @@ This feature was analyzed from a certain PUBG cheat driver.
 ## What it can do?
 - Protection against direct dump by Anti-Rootkit tools
 - Bypass MmCopyMemory
+- Hide world does not trigger PG
 
 ## How to detect?
 - Attach a GUI process before using MmCopyMemory
